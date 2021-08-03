@@ -8,7 +8,7 @@ import (
 	"mime/quotedprintable"
 	"strings"
 
-	"github.com/golang-boy/go-textwrapper"
+	"github.com/emersion/go-textwrapper"
 )
 
 type UnknownEncodingError struct {
