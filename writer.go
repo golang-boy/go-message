@@ -55,7 +55,7 @@ func createWriter(w io.Writer, header *Header) (*Writer, error) {
 	}
 
 	switch strings.ToLower(mediaParams["charset"]) {
-	case "", "us-ascii", "utf-8":
+	case "", "us-ascii", "utf-8", "gb2312:
 		// This is OK
 	default:
 		// Anything else is invalid
